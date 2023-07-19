@@ -14,7 +14,6 @@ import cv2
 import math
 
 
-
 def preprocess_image(img_path, target_size=(32, 32)):
     img = image.load_img(img_path, target_size=target_size)
     input_img_data = image.img_to_array(img)
@@ -23,34 +22,6 @@ def preprocess_image(img_path, target_size=(32, 32)):
     input_img_data = np.expand_dims(input_img_data, axis=0)
     input_img_data = preprocess_input(input_img_data)
     return input_img_data
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 def get_trainable_layers(model):
     trainable_layers = []

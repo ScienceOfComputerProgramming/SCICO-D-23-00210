@@ -5,7 +5,7 @@ def load_model(model_name):
     model = tf.keras.models.load_model(model_name)
     return model
 
-
+ 
 def generate_min_max(model, all_data, min_max):
     if not os.path.exists(min_max):
         getMin_Max(model, all_data, min_max)

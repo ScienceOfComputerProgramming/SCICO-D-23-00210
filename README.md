@@ -1,14 +1,14 @@
 ## ISTA+
 
-ISTA+ is a tool for automatic test case generation and test case optimization based on neuronal coverage analysis. ISTA can improve the test adequacy of the intelligent system while expanding the dataset(text data type and image data type). 
+ISTA+ is a tool for automatic test case generation and test case optimization based on neuronal coverage analysis. ISTA+ can improve the test adequacy of the intelligent system while expanding the dataset(text data type and image data type). 
 
 In summary, the ISTA+ tool provides the following benefits:
 
-- **Various data types.** ISTA supports not only image data type datasets but also text data type datasets.
+- **Various data types.** ISTA+ supports not only image data type datasets but also text data type datasets.
 - **Flexibility and extensibility.** With a modular approach to integration, new technologies and methods can be added to the ISTA with less effort.
-- **Interaction friendly.** ISTA has a user-friendly interface with a project directory area, a function operation display area, and a log information display area.
+- **Interaction friendly.** ISTA+ has a user-friendly interface with a project directory area, a function operation display area, and a log information display area.
 - **Data visualisation.** The results of the experiments can be presented in a visual format.
-- **Results report.** ISTA can automatically generate test reports with key information from the testing and evaluation process.
+- **Results report.** ISTA+ can automatically generate test reports with key information from the testing and evaluation process.
 
 ## Components
 

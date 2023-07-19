@@ -14,6 +14,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 
+
 def getMin_Max(model, data, min_max_file_name):
     output = getOutPut(model, data)
     min_max = np.zeros((output.shape[-1], 2))

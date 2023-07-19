@@ -1,8 +1,8 @@
-## ISTA
+## ISTA+
 
-ISTA is a tool for automatic test case generation and test case optimization based on neuronal coverage analysis. ISTA can improve the test adequacy of the intelligent system while expanding the dataset(text data type and image data type). 
+ISTA+ is a tool for automatic test case generation and test case optimization based on neuronal coverage analysis. ISTA can improve the test adequacy of the intelligent system while expanding the dataset(text data type and image data type). 
 
-In summary, the ISTA tool provides the following benefits:
+In summary, the ISTA+ tool provides the following benefits:
 
 - **Various data types.** ISTA supports not only image data type datasets but also text data type datasets.
 - **Flexibility and extensibility.** With a modular approach to integration, new technologies and methods can be added to the ISTA with less effort.
@@ -12,7 +12,7 @@ In summary, the ISTA tool provides the following benefits:
 
 ## Components
 
-ISTA is implemented based on the PyQt5 and the TensorFlow framework, and the architecture is shown in the figure below.
+ISTA+ is implemented based on the PyQt5 and the TensorFlow framework, and the architecture is shown in the figure below.
 
 <img width="719" alt="overview" src="https://user-images.githubusercontent.com/100778073/212594386-bef61398-5913-45b6-ade3-26473d3e4415.png">
 

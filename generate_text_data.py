@@ -1,6 +1,6 @@
 import csv
 import random
-
+ 
 
 def generate_text_testcase(generate_number, generate_path, dimension, lower, upper):
     for i in range(generate_number):

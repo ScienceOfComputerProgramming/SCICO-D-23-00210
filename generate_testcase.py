@@ -1,4 +1,5 @@
 '''
+20230920
 Leverage neuron coverage to guide the generation of images from combinations of transformations.
 '''
 from __future__ import print_function
@@ -227,7 +228,6 @@ def rambo_guided1(dataset_path, seed_label_path, new_input, startticks, maxtime,
             else:
                 break
 
-
         generate += 1
     return generatenumber
 
@@ -281,11 +281,7 @@ def rambo_guided2(dataset_path, seed_label_path, new_input, min_max_file, maxcha
 
     with open(new_input + '/' + 'steering.csv', "a", newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['序号', '种子图片', '生成图片', '标签'])
-
-
-
-
+        writer.writerow(['Number', 'Seed Image', 'Image Generation', 'Tag'])
 
     image_file_group = []
     for i in range(filenumber1):
